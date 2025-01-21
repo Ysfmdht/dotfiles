@@ -35,7 +35,6 @@ return {
         require("mason-lspconfig").setup({
             ensure_installed = {
                 "lua_ls",
-                "jedi_language_server",
             },
             handlers = {
                 function(server_name) -- default handler (optional)
