@@ -75,6 +75,12 @@ return {
           })
         end,
 
+        ts_ls = function ()
+          require("lspconfig").ts_ls.setup({
+            capabilities = capabilities,
+          })
+        end,
+
         lua_ls = function()
           require("lspconfig").lua_ls.setup {
             capabilities = capabilities,
